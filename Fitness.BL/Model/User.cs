@@ -36,7 +36,7 @@ namespace Fitness.BL.Model
         #endregion
 
         /// <summary>
-        /// Create new User.
+        /// Create new User
         /// </summary>
         /// <param name="name"> Name. </param>
         /// <param name="gender"> Gender. </param>
