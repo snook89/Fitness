@@ -50,7 +50,7 @@ namespace Fitness.BL.Controller
 
             using (var fs = new FileStream("user.dat", FileMode.OpenOrCreate))
             {
-                if (formatter.Deserialize(fs) is List<User> users)
+                if (fs.Length > 0 && formatter.Deserialize(fs) is List<User> users)
                 {
                     return users;
                 }
